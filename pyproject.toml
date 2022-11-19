@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "torch-sandbox"
+version = "0.1.0"
+description = ""
+authors = ["guccisan <yamskymtb0903@gmail.com>"]
+readme = "README.md"
+packages = [{include = "torch_sandbox"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.5.1"
+jupyter = "^1.0.0"
+torch = {url = "https://download.pytorch.org/whl/cu117/torch-1.13.0%2Bcu117-cp39-cp39-linux_x86_64.whl"}
+torchviz = "^0.0.2"
+torchsummary = "1.5.1"
+torch-summary = "1.4.5"
+torchinfo = "1.7.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
