@@ -15,6 +15,11 @@ torchviz = "^0.0.2"
 torchsummary = "1.5.1"
 torch-summary = "1.4.5"
 torchinfo = "1.7.1"
+tqdm = "^4.64.1"
+colorama = "^0.4.6"
+matplotlib = "^3.6.2"
+scipy = "^1.9.3"
+sklearn = "0.0.0"
 
 [build-system]
 requires = ["poetry-core"]
